@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G8DRyGsolps=",
+  "dgSpecHash": "jwXWf08uuK4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtilities.csproj",
+  "projectFilePath": "C:\\Users\\Dylan Minatrea\\Source\\Repos\\SCPUtilities\\SCPUtils\\SCPUtils.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\russe\\.nuget\\packages\\exmod.exiled\\9.5.0\\exmod.exiled.9.5.0.nupkg.sha512"
+    "C:\\Users\\Dylan Minatrea\\.nuget\\packages\\exmod.exiled\\9.5.0\\exmod.exiled.9.5.0.nupkg.sha512"
   ],
   "logs": [
     {
