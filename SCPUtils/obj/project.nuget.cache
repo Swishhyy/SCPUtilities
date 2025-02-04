@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MfWeOq7KgBU=",
+  "dgSpecHash": "Mhyou/uLurw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\russe\\Documents\\GitHub\\MHS & TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\SCPUtils.csproj",
+  "projectFilePath": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\russe\\.nuget\\packages\\exmod.exiled\\9.5.0\\exmod.exiled.9.5.0.nupkg.sha512"
   ],
