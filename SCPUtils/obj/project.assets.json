@@ -108,9 +108,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtils.csproj",
-      "projectName": "SCPUtils",
-      "projectPath": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtils.csproj",
+      "projectUniqueName": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtilities.csproj",
+      "projectName": "SCPUtilities",
+      "projectPath": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\SCPUtilities.csproj",
       "packagesPath": "C:\\Users\\russe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\russe\\Documents\\GitHub\\SCPUtilities\\SCPUtils\\obj\\",
       "projectStyle": "PackageReference",
