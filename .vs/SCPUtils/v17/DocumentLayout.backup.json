@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp079editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp079editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp096editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp096editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\extensions\\scp079extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\extensions\\scp079extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp049editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp049editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp0492editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp0492editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\extensions\\playerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\extensions\\playerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\extensions\\scp0492extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\extensions\\scp0492extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\extensions\\scp049extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\extensions\\scp049extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\iscpeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\iscpeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\scputils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\scputils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp939editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp939editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\scputils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\scputils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp173editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp173editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|c:\\users\\russe\\documents\\github\\mhs \u0026 tstc coding\\tstc coding\\course work\\scputils\\scputils\\editors\\scp106editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934715C7-5F17-436F-99CD-BB3599502A22}|SCPUtils\\SCPUtils.csproj|solutionrelative:scputils\\editors\\scp106editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SCP079Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP079Extensions.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Extensions\\SCP079Extensions.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP079Extensions.cs",
+              "RelativeToolTip": "SCPUtils\\Extensions\\SCP079Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:54:10.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Config.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Config.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Config.cs",
+              "RelativeToolTip": "SCPUtils\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:26:39.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scp049Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp049Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp049Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp049Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp049Editor.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:24:25.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scp0492Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp0492Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp0492Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp0492Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp0492Editor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:24:40.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scp079Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp079Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp079Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp079Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp079Editor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:24:51.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scp096Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp096Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp096Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp096Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp096Editor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:25:03.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\PlayerExtensions.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Extensions\\PlayerExtensions.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\PlayerExtensions.cs",
+              "RelativeToolTip": "SCPUtils\\Extensions\\PlayerExtensions.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:40:43.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SCP0492Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP0492Extensions.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Extensions\\SCP0492Extensions.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP0492Extensions.cs",
+              "RelativeToolTip": "SCPUtils\\Extensions\\SCP0492Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:45:02.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SCP049Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP049Extensions.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Extensions\\SCP049Extensions.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Extensions\\SCP049Extensions.cs",
+              "RelativeToolTip": "SCPUtils\\Extensions\\SCP049Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:41:21.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IScpEditor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\IScpEditor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\IScpEditor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\IScpEditor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\IScpEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:24:10.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SCPUtils.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\SCPUtils.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\SCPUtils.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\SCPUtils.cs",
+              "RelativeToolTip": "SCPUtils\\SCPUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:35:13.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Scp939Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp939Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp939Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp939Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp939Editor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:25:40.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SCPUtils.csproj",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\SCPUtils.csproj",
+              "RelativeDocumentMoniker": "SCPUtils\\SCPUtils.csproj",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\SCPUtils.csproj",
+              "RelativeToolTip": "SCPUtils\\SCPUtils.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T17:26:54.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Scp173Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp173Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp173Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp173Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp173Editor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:25:26.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Scp106Editor.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp106Editor.cs",
+              "RelativeDocumentMoniker": "SCPUtils\\Editors\\Scp106Editor.cs",
+              "ToolTip": "C:\\Users\\russe\\Documents\\GitHub\\MHS \u0026 TSTC Coding\\TSTC Coding\\Course Work\\SCPUtils\\SCPUtils\\Editors\\Scp106Editor.cs",
+              "RelativeToolTip": "SCPUtils\\Editors\\Scp106Editor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:25:15.889Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
