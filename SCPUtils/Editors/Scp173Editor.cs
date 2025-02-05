@@ -10,21 +10,22 @@ namespace SCPUtils.Editors
     {
         public void TryEdit(VerifiedEventArgs ev, global::SCPUtils.Config config)
         {
-            // Check if the player's role is SCP-173.
             if (ev.Player.Role is Scp173Role scp173)
             {
-                // Set SCP-173's health using the configured value.
+                // Set SCP-173's health
                 ev.Player.Health = config.Scp173CustomHealth;
                 Log.Info($"[SCPUtils] Set SCP-173's health to {config.Scp173CustomHealth} for {ev.Player.Nickname}");
 
-                // Set a custom damage value for SCP-173.
+                // Apply custom stats
                 scp173.SetDamage(config.Scp173CustomDamage);
-
-                // Set the attack cooldown for SCP-173.
                 scp173.SetAttackCooldown(config.Scp173AttackCooldown);
-
-                // Set the blink rate for SCP-173.
                 scp173.SetBlinkRate(config.Scp173BlinkRate);
+
+                // Apply Hume Shield (using Player Extensions)
+                ev.Player.SetHumeShield(config.Scp173HumeShieldStart);
+                ev.Player.SetHumeShieldRegen(config.Scp173HumeShieldRegen);
+
+                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp173HumeShieldStart} with regen {config.Scp173HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }

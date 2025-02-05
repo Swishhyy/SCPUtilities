@@ -10,27 +10,24 @@ namespace SCPUtils.Editors
     {
         public void TryEdit(VerifiedEventArgs ev, global::SCPUtils.Config config)
         {
-            // Check if the player's role is SCP-939.
             if (ev.Player.Role is Scp939Role scp939)
             {
-                // Set SCP-939's health using the configured value.
+                // Set SCP-939's health
                 ev.Player.Health = config.Scp939CustomHealth;
                 Log.Info($"[SCPUtils] Set SCP-939's health to {config.Scp939CustomHealth} for {ev.Player.Nickname}");
 
-                // Set a custom damage value.
+                // Apply custom stats
                 scp939.SetDamage(config.Scp939CustomDamage);
-
-                // Set the attack cooldown (between regular attacks).
                 scp939.SetAttackCooldown(config.Scp939AttackCooldown);
-
-                // Set the detection range.
                 scp939.SetDetectionRange(config.Scp939DetectionRange);
-
-                // Set the ability cooldown.
                 scp939.SetAbilityCooldown(config.Scp939AbilityCooldown);
-
-                // Set the stamina.
                 scp939.SetStamina(config.Scp939Stamina);
+
+                // Apply Hume Shield (using Player Extensions)
+                ev.Player.SetHumeShield(config.Scp939HumeShieldStart);
+                ev.Player.SetHumeShieldRegen(config.Scp939HumeShieldRegen);
+
+                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp939HumeShieldStart} with regen {config.Scp939HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }

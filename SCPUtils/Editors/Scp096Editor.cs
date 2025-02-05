@@ -10,21 +10,22 @@ namespace SCPUtils.Editors
     {
         public void TryEdit(VerifiedEventArgs ev, global::SCPUtils.Config config)
         {
-            // Check if the player's role is SCP-096.
             if (ev.Player.Role is Scp096Role scp096)
             {
-                // Set SCP-096's health using the configured value.
+                // Set SCP-096's health
                 ev.Player.Health = config.Scp096CustomHealth;
                 Log.Info($"[SCPUtils] Set SCP-096's health to {config.Scp096CustomHealth} for {ev.Player.Nickname}");
 
-                // Set a custom damage value for SCP-096.
+                // Apply custom stats
                 scp096.SetDamage(config.Scp096CustomDamage);
-
-                // Set the ability cooldown for SCP-096.
                 ev.Player.SetAbilityCooldown(config.Scp096AbilityCooldown);
-
-                // Set the rage threshold for SCP-096.
                 scp096.SetRageThreshold(config.Scp096RageThreshold);
+
+                // Apply Hume Shield (using Player Extensions)
+                ev.Player.SetHumeShield(config.Scp096HumeShieldStart);
+                ev.Player.SetHumeShieldRegen(config.Scp096HumeShieldRegen);
+
+                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp096HumeShieldStart} with regen {config.Scp096HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }
