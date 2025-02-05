@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SCPUtils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a32c8f197cb010981237a2920ca4cd9ee7a680b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7156fb967cb3a7e8120bb477a61f6f29a0681c49")]
 [assembly: System.Reflection.AssemblyProductAttribute("SCPUtils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SCPUtils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
