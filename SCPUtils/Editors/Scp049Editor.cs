@@ -14,7 +14,8 @@ namespace SCPUtils.Editors
             {
                 // Set the player's health
                 ev.Player.Health = config.Scp049CustomHealth;
-                Log.Info($"[SCPUtils] Set SCP-049's health to {config.Scp049CustomHealth} for {ev.Player.Nickname}");
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set SCP-049's health to {config.Scp049CustomHealth} for {ev.Player.Nickname}");
 
                 // Apply custom stats
                 ev.Player.SetMovementSpeedMultiplier(config.Scp049MovementSpeedMultiplier);
@@ -25,8 +26,9 @@ namespace SCPUtils.Editors
                 // Apply Hume Shield (using Player Extensions)
                 ev.Player.SetHumeShield(config.Scp049HumeShieldStart);
                 ev.Player.SetHumeShieldRegen(config.Scp049HumeShieldRegen);
-
-                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp049HumeShieldStart} with regen {config.Scp049HumeShieldRegen} for {ev.Player.Nickname}");
+                
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp049HumeShieldStart} with regen {config.Scp049HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }

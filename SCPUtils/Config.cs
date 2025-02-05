@@ -5,7 +5,9 @@ namespace SCPUtils
     public class Config : IConfig
     {
         public bool IsEnabled { get; set; } = true; // Enables or disables the plugin
+        
 
+        // Player SCPs
         // SCP-049
         public int Scp049CustomHealth { get; set; } = 500;
         public float Scp049MovementSpeedMultiplier { get; set; } = 1.0f;
@@ -25,7 +27,6 @@ namespace SCPUtils
         public int Scp0492HumeShieldRegen { get; set; } = 4;
 
         // SCP-079
-        public float Scp079DamageMultiplier { get; set; } = 1.2f;
         public int Scp079AbilityCooldown { get; set; } = 15;
         public float Scp079APChargeRate { get; set; } = 1.0f;
 
@@ -65,6 +66,9 @@ namespace SCPUtils
         public int Scp939Stamina { get; set; } = 100;
         public int Scp939HumeShieldStart { get; set; } = 160;
         public int Scp939HumeShieldRegen { get; set; } = 4;
+
+        // Non-Player SCPs
+        // eg: usable items like SCP 500
 
         public bool Debug { get; set; } = false;
     }

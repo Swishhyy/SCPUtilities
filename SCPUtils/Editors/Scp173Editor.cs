@@ -14,7 +14,9 @@ namespace SCPUtils.Editors
             {
                 // Set SCP-173's health
                 ev.Player.Health = config.Scp173CustomHealth;
-                Log.Info($"[SCPUtils] Set SCP-173's health to {config.Scp173CustomHealth} for {ev.Player.Nickname}");
+
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set SCP-173's health to {config.Scp173CustomHealth} for {ev.Player.Nickname}");
 
                 // Apply custom stats
                 scp173.SetDamage(config.Scp173CustomDamage);
@@ -25,7 +27,8 @@ namespace SCPUtils.Editors
                 ev.Player.SetHumeShield(config.Scp173HumeShieldStart);
                 ev.Player.SetHumeShieldRegen(config.Scp173HumeShieldRegen);
 
-                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp173HumeShieldStart} with regen {config.Scp173HumeShieldRegen} for {ev.Player.Nickname}");
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp173HumeShieldStart} with regen {config.Scp173HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }

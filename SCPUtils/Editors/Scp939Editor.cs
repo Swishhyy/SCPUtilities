@@ -14,7 +14,9 @@ namespace SCPUtils.Editors
             {
                 // Set SCP-939's health
                 ev.Player.Health = config.Scp939CustomHealth;
-                Log.Info($"[SCPUtils] Set SCP-939's health to {config.Scp939CustomHealth} for {ev.Player.Nickname}");
+
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set SCP-939's health to {config.Scp939CustomHealth} for {ev.Player.Nickname}");
 
                 // Apply custom stats
                 scp939.SetDamage(config.Scp939CustomDamage);
@@ -27,7 +29,8 @@ namespace SCPUtils.Editors
                 ev.Player.SetHumeShield(config.Scp939HumeShieldStart);
                 ev.Player.SetHumeShieldRegen(config.Scp939HumeShieldRegen);
 
-                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp939HumeShieldStart} with regen {config.Scp939HumeShieldRegen} for {ev.Player.Nickname}");
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp939HumeShieldStart} with regen {config.Scp939HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }

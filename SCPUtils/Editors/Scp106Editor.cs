@@ -14,7 +14,9 @@ namespace SCPUtils.Editors
             {
                 // Set SCP-106's health
                 ev.Player.Health = config.Scp106CustomHealth;
-                Log.Info($"[SCPUtils] Set SCP-106's health to {config.Scp106CustomHealth} for {ev.Player.Nickname}");
+
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set SCP-106's health to {config.Scp106CustomHealth} for {ev.Player.Nickname}");
 
                 // Apply custom stats
                 scp106.SetDamage(config.Scp106CustomDamage);
@@ -25,7 +27,8 @@ namespace SCPUtils.Editors
                 ev.Player.SetHumeShield(config.Scp106HumeShieldStart);
                 ev.Player.SetHumeShieldRegen(config.Scp106HumeShieldRegen);
 
-                Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp106HumeShieldStart} with regen {config.Scp106HumeShieldRegen} for {ev.Player.Nickname}");
+                if (config.Debug)
+                    Log.Info($"[SCPUtils] Set Hume Shield to {config.Scp106HumeShieldStart} with regen {config.Scp106HumeShieldRegen} for {ev.Player.Nickname}");
             }
         }
     }
