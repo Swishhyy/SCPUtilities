@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Exiled.API.Features;
 using Exiled.Events.EventArgs.Player;
 using SCPUtils.Editors;
@@ -17,7 +18,10 @@ namespace SCPUtils
         public override Version Version => new Version(1, 0, 0);
 
         private readonly List<IScpEditor> scpEditors = new List<IScpEditor>();
-        private const string ConfigFilePath = "config.yml"; // Default Exiled config file
+
+        // Dynamically detect the server port (fallback to 7777 if undetectable)
+        private static readonly int ServerPort = Server.Port > 0 ? Server.Port : 7777;
+        private static readonly string ConfigFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".config", "EXILED", "Configs", $"{ServerPort}-config.yml");
 
         public override void OnEnabled()
         {
@@ -67,8 +71,8 @@ namespace SCPUtils
         {
             if (!File.Exists(ConfigFilePath))
             {
-                Log.Warn("[SCPUtils] Config file not found. Creating a new one...");
-                SaveConfig(Config); // Save the default config
+                Log.Warn($"[SCPUtils] Config file '{ConfigFilePath}' not found. Creating a new one...");
+                SaveConfig(new Config());
             }
             else
             {
@@ -79,34 +83,30 @@ namespace SCPUtils
                         .Build();
 
                     var yamlContent = File.ReadAllText(ConfigFilePath);
-                    var fullConfig = deserializer.Deserialize<Dictionary<string, Config>>(yamlContent);
+                    var existingConfig = deserializer.Deserialize<Dictionary<string, object>>(yamlContent);
 
-                    if (fullConfig != null && fullConfig.ContainsKey("SCPUtils"))
+                    if (existingConfig != null && existingConfig.ContainsKey("SCPUtils"))
                     {
-                        var loadedConfig = fullConfig["SCPUtils"];
-
-                        // Update properties of the existing Config object
-                        UpdateConfig(loadedConfig);
-
+                        var scpUtilsConfig = deserializer.Deserialize<Config>(existingConfig["SCPUtils"].ToString());
+                        UpdateConfig(scpUtilsConfig);
                         Log.Info("[SCPUtils] Configuration loaded successfully.");
                     }
                     else
                     {
                         Log.Warn("[SCPUtils] 'SCPUtils' section missing. Adding defaults...");
-                        SaveConfig(Config); // Save current default config
+                        SaveConfig(new Config());
                     }
                 }
                 catch (Exception ex)
                 {
                     Log.Error($"[SCPUtils] Error reading config file: {ex.Message}");
-                    SaveConfig(Config); // Backup strategy in case of errors
+                    SaveConfig(new Config());
                 }
             }
         }
 
         private void UpdateConfig(Config loadedConfig)
         {
-            // Use reflection to copy all properties from the loaded config
             foreach (var property in typeof(Config).GetProperties())
             {
                 if (property.CanWrite)
@@ -123,15 +123,29 @@ namespace SCPUtils
                 .WithNamingConvention(CamelCaseNamingConvention.Instance)
                 .Build();
 
-            var fullConfig = new Dictionary<string, Config>
+            Dictionary<string, object> existingConfig;
+
+            // Load existing YAML content
+            if (File.Exists(ConfigFilePath))
             {
-                { "SCPUtils", config }
-            };
+                var yamlContent = File.ReadAllText(ConfigFilePath);
+                existingConfig = new DeserializerBuilder()
+                    .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                    .Build()
+                    .Deserialize<Dictionary<string, object>>(yamlContent);
+            }
+            else
+            {
+                existingConfig = new Dictionary<string, object>();
+            }
 
-            var yamlContent = serializer.Serialize(fullConfig);
-            File.WriteAllText(ConfigFilePath, yamlContent);
+            // Add or update the SCPUtils section
+            existingConfig["SCPUtils"] = config;
 
-            Log.Info("[SCPUtils] Default configuration saved successfully.");
+            var yamlOutput = serializer.Serialize(existingConfig);
+            File.WriteAllText(ConfigFilePath, yamlOutput);
+
+            Log.Info($"[SCPUtils] Configuration saved successfully to '{ConfigFilePath}'.");
         }
     }
 }
